@@ -1,0 +1,8 @@
+.idea
+
+.env
+logs
+
+# OS X
+.DS_Store
+.vscode
