@@ -2,6 +2,7 @@
 
 .env
 logs
+go.sum
 
 # OS X
 .DS_Store
