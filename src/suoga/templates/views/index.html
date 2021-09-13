@@ -1,0 +1,15 @@
+{% extends "./base/base.html"%} {% block systle %}
+<link rel="stylesheet" href="/assets/css/base/base.css"> {% endblock systle %} {% block content %}
+
+<header>
+    <div id="clouds"></div>
+</header>
+
+{% endblock %} {% block js %}
+<script src="/assets/js/base.js"></script>
+<script>
+    $(document).ready(function() {
+        make_clouds()
+    });
+</script>
+{% endblock js %}
